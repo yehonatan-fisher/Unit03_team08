@@ -10,7 +10,112 @@ import org.junit.Test;
  */
 public class Unit03Tester
 {
+      @Test
+    //methods 2 tests (Fisher)
+    public void testAdd0(){
         
+        int result = Unit03.shiftRight(1234, 2);
+        assertEquals(3412,result);
+    }
+    @Test
+    //methods 2 tests (Fisher)
+    public void testAdd1(){
+        
+        int result = Unit03.shiftRight(4445, 1);
+        assertEquals(5444,result);
+    }
+    @Test
+    //methods 2 tests (Fisher)
+    public void testAdd2(){
+        
+        int result = Unit03.shiftRight(9191, 3);
+        assertEquals(1919,result);
+    }
+    @Test
+    //methods 2 tests (Fisher)
+    public void testAdd3(){
+        
+        int result = Unit03.shiftRight(5653, 7);
+        assertEquals(-1,result);
+    }
+    @Test
+    //methods 2 tests (Fisher)
+    public void testAdd4(){
+        
+        int result = Unit03.shiftRight(123423, 2);
+        assertEquals(-1,result);
+    }
+    @Test
+    //methods 3 tests (Fisher)
+    public void testAdd5(){
+        
+        int result = Unit03.shiftRight2(123, 2);
+        assertEquals(231,result);
+    }
+    @Test
+    //methods 3 tests (Fisher)
+    public void testAdd6(){
+        
+        int result = Unit03.shiftRight2(7834, 3);
+        assertEquals(8347,result);
+    }
+    @Test
+    //methods 3 tests (Fisher)
+    public void testAdd7(){
+        
+        int result = Unit03.shiftRight2(17, 1);
+        assertEquals(71,result);
+    }
+    @Test
+    //methods 3 tests (Fisher)
+    public void testAdd8(){
+        
+        int result = Unit03.shiftRight2(5653, 7);
+        assertEquals(-1,result);
+    }
+    @Test
+    //methods 3 tests (Fisher)
+    public void testAdd9(){
+        
+        int result = Unit03.shiftRight2(10974, 2);
+        assertEquals(-1,result);
+    }
+    @Test
+    //methods 5 tests (Fisher)
+    public void testAdd10(){
+        
+        int result = Unit03.shiftLeft(10974, 2);
+        assertEquals(-1,result);
+    }
+    @Test
+    //methods 5 tests (Fisher)
+    public void testAdd11(){
+        
+        int result = Unit03.shiftLeft(1097, 5);
+        assertEquals(-1,result);
+    }
+    @Test
+    //methods 5 tests (Fisher)
+    public void testAdd12(){
+        
+        int result = Unit03.shiftLeft(1243, 2);
+        assertEquals(4312,result);
+    }
+    @Test
+    //methods 5 tests (Fisher)
+    public void testAdd13(){
+        
+        int result = Unit03.shiftLeft(2314, 4);
+        assertEquals(2314,result);
+    }
+    @Test
+    //methods 5 tests (Fisher)
+    public void testAdd14(){
+        
+        int result = Unit03.shiftLeft(8745, 3);
+        assertEquals(5874,result);
+    }
+}      
     
    @Test
     public void test1(){
